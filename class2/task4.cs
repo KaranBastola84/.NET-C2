@@ -25,10 +25,10 @@ namespace ConsoleApp1.class2
 
             // Reversing the array
             Array.Reverse(numbers);
-            Console.WriteLine("Reversed Array:");
-            foreach (int item in numbers)
+            Console.WriteLine("Reversed Array (Descending):");
+            for (int i = 0; i < numbers.Length; i++)
             {
-                Console.Write(item + " ");
+                Console.Write(numbers[i] + " ");
             }
 
             // Array.IndexOf example
