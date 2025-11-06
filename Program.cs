@@ -26,5 +26,10 @@ class Program
         Console.WriteLine($"Radius = {radius}:");
         Console.WriteLine($"Area of circle = {c.CalculateArea(radius)}");
         Console.WriteLine($"Perimeter of circle = {c.CalculatePerimeter(radius)}");
+
+        Console.WriteLine("\n Task 3 Output:\n ");
+        // Task 3
+        task3 task3 = new();
+        task3.DataTypes();
     }
 }
