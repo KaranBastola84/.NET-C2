@@ -28,8 +28,15 @@ class Program
         Console.WriteLine($"Perimeter of circle = {c.CalculatePerimeter(radius)}");
 
         Console.WriteLine("\n Task 3 Output:\n ");
+
         // Task 3
         task3 task3 = new();
         task3.DataTypes();
+
+        Console.WriteLine("\n Task 4 Output:\n ");
+
+        // Task 4
+        task4 task4 = new();
+        task4.ArrayOperations();
     }
 }
