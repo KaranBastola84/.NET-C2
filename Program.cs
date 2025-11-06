@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("0. Exit");
             Console.Write("\nEnter your choice: ");
 
-            string choice = Console.ReadLine();
+            string choice = Console.ReadLine() ?? "";
             Console.Clear();
 
             switch (choice)
