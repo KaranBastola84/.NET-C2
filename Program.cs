@@ -38,5 +38,11 @@ class Program
         // Task 4
         task4 task4 = new();
         task4.ArrayOperations();
+
+        Console.WriteLine("\n Task 5 Output:\n ");
+
+        // Task 5
+        task5 task5 = new();
+        task5.DateTimeExample();
     }
 }
