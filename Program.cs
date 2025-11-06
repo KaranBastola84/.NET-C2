@@ -44,5 +44,10 @@ class Program
         // Task 5
         task5 task5 = new();
         task5.DateTimeExample();
+
+        Console.WriteLine("\n Task 6 Output:\n ");
+        // Task 6
+        task6 task6 = new();
+        task6.GenericCollectionExample();
     }
 }
